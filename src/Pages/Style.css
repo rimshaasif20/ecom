@@ -1,0 +1,32 @@
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
