@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigate from './Navigate';
 import { Carousel } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+import Footer from '../Components/Footer';
 import Card from 'react-bootstrap/Card';
 import './Style.css';
 function Home() {
@@ -126,9 +126,11 @@ function Home() {
                             </Card>
                         </div>
                     </div>
+                     
                 </div>
-
             </div>
+      <Footer />
+
         </>
     );
 }

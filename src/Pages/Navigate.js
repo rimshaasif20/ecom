@@ -6,7 +6,7 @@ function Navigate() {
     <div>
     <Navbar bg="primary" variant="dark" className='container  mt-2' >
         
-          <Navbar.Brand style={{fontSize: '1.25rem'}} to ="/">AppsGenii Technologies</Navbar.Brand>
+          <Navbar.Brand style={{fontSize: '1.2rem'}} to ="/">AppsGenii Technologies</Navbar.Brand>
           
           <Nav className="navbar-nav " style={{fontSize: '1rem'}}>
           <Nav.Link className='nav-item'>
