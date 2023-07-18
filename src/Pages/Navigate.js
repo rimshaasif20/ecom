@@ -3,8 +3,8 @@ import {Navbar, Nav} from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 function Navigate() {
   return (
-    <div>
-    <Navbar bg="primary" variant="dark" className='container  mt-2' >
+    <div className='container' style={{marginTop: '10px'}}>
+    <Navbar bg="primary" variant="dark"  >
         
           <Navbar.Brand style={{fontSize: '1.2rem'}} to ="/">AppsGenii Technologies</Navbar.Brand>
           

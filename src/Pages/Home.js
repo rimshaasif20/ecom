@@ -19,7 +19,7 @@ function Home() {
                         />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p>Welcome to AppsGenii Technologies.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item className='slider'>
@@ -29,7 +29,6 @@ function Home() {
                             alt="Second slide"
 
                         />
-
                         <Carousel.Caption>
                             <h3>Second slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -40,7 +39,6 @@ function Home() {
                             className="d-block w-100 images"
                             src="Pic3.jpg"
                             alt="Third slide"
-
                         />
 
                         <Carousel.Caption>

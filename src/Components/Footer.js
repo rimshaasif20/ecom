@@ -4,7 +4,8 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
+      <div className='container'>
+          <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
@@ -92,7 +93,7 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                New York, NY 10012, US
+                22-S, Imperial Commercial Block, Paragon City, Lahore, Punjab 54000
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
@@ -113,5 +114,7 @@ export default function Footer() {
         © 2021 Copyright AppsGenii Technologies (Pvt) Ltd.
       </div>
     </MDBFooter>
+    </div>
+
   );
 }

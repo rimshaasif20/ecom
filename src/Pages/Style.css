@@ -33,7 +33,7 @@
 .element{
    height: 300px;
   width: 400px;
-  margin-left: 150px;
+  margin-left: 200px;
   background-color: red;
   animation: 
     pulse 3s ease infinite alternate, 
@@ -62,5 +62,6 @@
     transform: translate(-150px, 0);
   }
 }
+
 
 
