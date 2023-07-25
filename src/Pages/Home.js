@@ -128,9 +128,9 @@ function Home() {
                      
                 </div>
             </div>
-      <Footer />
+     
       </div>
-
+ <Footer />
         </>
     );
 }

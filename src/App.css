@@ -13,13 +13,13 @@
   }
 }
 
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* flex-direction: row-reverse; */
+
     width: 983px;
-}
+} */
 
 .App-header {
   background-color: #282c34;
