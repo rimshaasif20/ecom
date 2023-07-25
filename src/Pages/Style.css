@@ -25,11 +25,11 @@
   margin-top: 50px;
 }
 
-.row {
+/* .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 .element{
    height: 300px;
   width: 400px;

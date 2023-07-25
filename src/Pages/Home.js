@@ -4,6 +4,7 @@ import { Carousel } from 'react-bootstrap';
 import Footer from '../Components/Footer';
 import Card from 'react-bootstrap/Card';
 import './Style.css';
+import '../App.css'
 function Home() {
     return (
         <>
@@ -47,10 +48,10 @@ function Home() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <div className='container mt-5 text-center' >
+                <div className='container1 mt-5 text-center' >
                     <div className='row' >
-                        <div className='col' >
-                            <Card style={{  height: '25 rem', width: '18rem' }}>
+                        <div >
+                            <Card style={{  height: '25 rem', width: '18rem', margin: '10px'}}>
                                 <Card.Img variant="top" src="angularp.png" />
                                 <Card.Body>
                                     <Card.Title>Angular</Card.Title>
@@ -61,8 +62,8 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className='col'>
-                            <Card style={{ height: '25 rem', width: '18rem' }}>
+                        <div>
+                            <Card style={{ height: '25 rem', width: '18rem', margin: '10px' }}>
                                 <Card.Img variant="top" src="Node.js-logo.webp" style={{width: '200px', marginLeft: '50px', marginTop: '25px'}} />
                                 <Card.Body>
                                     <Card.Title>Node JS</Card.Title>
@@ -73,8 +74,8 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className='col'>
-                            <Card style={{ height: '25 rem', width: '18rem' }}>
+                        <div>
+                            <Card style={{ height: '25 rem', width: '18rem', margin: '10px' }}>
                                 <Card.Img variant="top" src="reactp.png" style={{width: '150px', height: '150px' ,marginLeft: '60px', marginTop: '15px'}} />
                                 <Card.Body>
                                     <Card.Title>React JS</Card.Title>
@@ -85,10 +86,10 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col'>
-                            <Card style={{ height: '23 rem', width: '18rem' }}>
+                    
+                    {/* <div className='row'> */}
+                        <div>
+                            <Card style={{ height: '23 rem', width: '18rem', margin: '10px' }}>
                                 <Card.Img variant="top" src="vue.png" style={{width: '150px', height: '150px' ,marginLeft: '60px', marginTop: '25px'}} />
                                 <Card.Body>
                                     <Card.Title>Vue</Card.Title>
@@ -99,8 +100,8 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className='col'>
-                            <Card style={{ height: '25 rem', width: '18rem' }}>
+                        <div>
+                            <Card style={{ height: '25 rem', width: '18rem', margin: '10px' }}>
                                 <Card.Img variant="top" src="android.jpg" style={{width: '150px', height: '150px' ,marginLeft: '60px', marginTop: '40px'}} />
                                 <Card.Body>
                                     <Card.Title>Android</Card.Title>
@@ -111,8 +112,8 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                        <div className='col'>
-                            <Card style={{ height: '25 rem', width: '18rem' }}>
+                        <div>
+                            <Card style={{ height: '25 rem', width: '18rem', margin: '10px' }}>
                                 <Card.Img variant="top" src="python.jpg" style={{width: '130px', height: '130px' ,marginLeft: '60px', marginTop: '20px'}} />
                                 <Card.Body>
                                     <Card.Title>Python</Card.Title>
@@ -123,11 +124,12 @@ function Home() {
                                 </Card.Body>
                             </Card>
                         </div>
-                    </div>
+                    {/* </div> */}
                      
                 </div>
             </div>
       <Footer />
+      </div>
 
         </>
     );

@@ -3,12 +3,13 @@ import {Navbar, Nav} from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 function Navigate() {
   return (
-    <div className='container' style={{marginTop: '10px'}}>
-    <Navbar bg="primary" variant="dark"  >
+    < >
+    <Navbar expand='lg' className="container mt-1"   bg="primary" variant="dark"  >
         
           <Navbar.Brand style={{fontSize: '1.2rem'}} to ="/">AppsGenii Technologies</Navbar.Brand>
-          
-          <Nav className="navbar-nav " style={{fontSize: '1rem'}}>
+           <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className='ms-auto navbar' style={{fontSize: '1rem'}}>
           <Nav.Link className='nav-item'>
           <NavLink to="/" className="nav-link" >Home</NavLink>
              </Nav.Link>
@@ -26,9 +27,9 @@ function Navigate() {
           <NavLink to="/login" className="nav-link "  >Login</NavLink>
              </Nav.Link>
           </Nav>
-       
+       </Navbar.Collapse>
       </Navbar>
-      </div>
+      </>
   )
 }
 

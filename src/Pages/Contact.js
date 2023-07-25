@@ -9,6 +9,7 @@ import {
 import "./Conatctus.css";
 import Animation from '../Components/Animation';
 import * as Yup from "yup";
+import Footer from '../Components/Footer';
 function Contact() {
  const initialValues = {
       id:0,
@@ -242,6 +243,7 @@ localStorage.setItem("userInfo", JSON.stringify(values));
         </Card>
   </div>
   );
+  <Footer />
     </div>
   )
 }
